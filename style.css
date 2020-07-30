@@ -54,3 +54,17 @@ p{
     margin-bottom: 10px;
     
 }
+.footer-bottom{
+   text-align-last:center;
+  
+}
+.header-logo img {
+width: 70px;
+height: 70px;
+margin-top: -20px;
+    border-image-width:2px; 
+}
+.footer-logo {
+width: 70px;
+height: 70px;
+}
