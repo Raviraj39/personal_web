@@ -1,0 +1,70 @@
+nav{
+    background-color: #7f5a83;
+    background-image: linear-gradient(343deg, rgb(20, 222, 124) 0%, rgb(20, 222, 124) 21%,rgb(25, 190, 119) 21%, rgb(25, 190, 119) 37%,rgb(30, 158, 113) 37%, rgb(30, 158, 113) 46%,rgb(35, 126, 108) 46%, rgb(35, 126, 108) 53%,rgb(39, 94, 103) 53%, rgb(39, 94, 103) 59%,rgb(44, 62, 97) 59%, rgb(44, 62, 97) 77%,rgb(49, 30, 92) 77%, rgb(49, 30, 92) 100%);
+}
+
+.profileImg{
+    padding: 15px;
+}
+
+.profileImg img{
+    height: 350px;
+    width: 80%;
+}
+
+@media screen and (max-width: 480px) {
+    .profileImg img{
+        width: 100%;
+    }
+}
+
+body{
+    background-color: #eceff1;
+    font-family: 'Vollkorn', serif;
+}
+
+p{
+    font-size: 18px;
+}
+
+.header{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hey{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hey a{
+    color: black;
+}
+
+.content{
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.page-footer{
+    background-image: linear-gradient(343deg, rgb(20, 222, 124) 0%, rgb(20, 222, 124) 21%,rgb(25, 190, 119) 21%, rgb(25, 190, 119) 37%,rgb(30, 158, 113) 37%, rgb(30, 158, 113) 46%,rgb(35, 126, 108) 46%, rgb(35, 126, 108) 53%,rgb(39, 94, 103) 53%, rgb(39, 94, 103) 59%,rgb(44, 62, 97) 59%, rgb(44, 62, 97) 77%,rgb(49, 30, 92) 77%, rgb(49, 30, 92) 100%);
+    padding-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.footer-bottom{
+   text-align-last:center;
+  
+}
+.header-logo img {
+width: 70px;
+height: 70px;
+margin-top: -20px;
+    border-image-width:2px; 
+}
+.footer-logo {
+width: 70px;
+height: 70px;
+}
